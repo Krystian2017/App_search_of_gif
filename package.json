@@ -1,0 +1,17 @@
+{
+  "name": "app_search_of_gif",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Krystian Bieniek",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  }
+}
