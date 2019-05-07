@@ -35,6 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+App_search_of_gif/
 
 # TypeScript v1 declaration files
 typings/
