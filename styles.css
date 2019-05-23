@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan&display=swap');
+
 body {
-  padding: 20px;
   text-align: center;
-  background-color: #0F0F0F;
-  color: #56A4A4;
+  background-color: #fff;
+  color: #19247C;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+.header {
+  padding: 20px;
+  margin-bottom: 100px;
+  background: #fff url('https://image.freepik.com/free-vector/abstract-background-with-watercolor-texture_1048-2144.jpg') no-repeat center;
+  /*background-attachment: cover;*/
+  background-size: auto;
+}
+
+a {
+  text-decoration-style: none;
 }

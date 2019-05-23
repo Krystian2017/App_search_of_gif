@@ -24,16 +24,18 @@ Search = React.createClass({
 
   render: function() {
     var styles = {
-      fontSize: '1.5em',
+      fontSize: '1em',
       width: '90%',
-      maxWidth: '350px'
+      maxWidth: '350px',
+      padding: '10px',
+      color: '#19247C'
     };
 
     return  <input
               type="text"
               onChange={this.handleChange}
               onKeyUp={this.handleKeyUp}
-              placeholder="Tutaj wpisz wyszukiwaną frazę"
+              placeholder="Enter the search phrase here"
               style={styles}
               value={this.state.searchTerm}
             />
